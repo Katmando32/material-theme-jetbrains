@@ -47,34 +47,16 @@ _@Mallowigi_:
 #### Sponsors
 
 ## Plugin
-* [Support](#supported-ides)
 * [Installation and Configuration](#installation)
 	* [Switch Theme](#switching-the-ide-theme)
 	* [Switch Color Scheme](#set-color-scheme-code)
 	* [Custom Accents](#custom-accents)
 * [Configuration](#configuration)
-* [Development](#development)
-* [Contribution](#contribution)
 * [Known Issues](#known-issues)
 * [Authors](#authors)
 * [Contact](#contact)
 * [Icon Reference](#icon-reference)
-* [Color Palette](#color-palette)
 
-## Supported IDEs
-
-Thanks to the awesome guys at [JetBrains](https://www.jetbrains.com/) the plugin is now supported on pretty much all IDE, however there might be some issues on Rider since it's a different SDK. Android Studio is partly supported.
-
-* IDEs versions 2016.X and lower > up until version 0.2.3
-* IDEs versions 2017.1-2 > up until version 0.10.6
-* IDEs versions 2017.3 > Up until version 1.6.0.4
-* IDEs versions 2018.1 > Version 2.4.0-2018.1 up to 2.10
-* IDEs versions 2018.2 > Version 2.4.0-2018.2 up to 2.10
-* IDEs versions 2018.3 up to 2018.4 > Version 2.10.0 up to 3.0.0-rc4
-* IDEs versions 2018.3.4 up to 2019.1 > Versions 3.0.0 up to 3.5.1
-* IDEs versions 2019.1 up to 2019.2 > Versions 3.5.1 up to 4.0
-* IDEs versions 2019.2 up to 2019.2.1 > Versions from 4.0 up to 4.4
-* IDEs versions 2019.2.1+ > Versions from 4.4
 
 ## Installation
 
@@ -246,32 +228,6 @@ More info at <https://www.material-theme.com/docs/configuration/settings/>
 
 --------------------
 
-## Development
-
-### Requirements
-
-* JDK 1.8
-* IntelliJ IDEA with Gradle
-
-### Developing using IntelliJ Gradle
-
-You can simplify development process thanks to Intellij's **Gradle plugin**. 
-Install the plugin, restart the IDE and you will be prompted with a window asking if you want to import the project as a Gradle project. 
-After that IntelliJ will download the Gradle Wrapper and the tasks will appear in the Gradle Tool Panel on the right.
-
-Import the project from the `build.gradle` file and develop as normal.  Make sure you select JDK 8 in the import wizard.  
-The other defaults are fine.  You can run the above mentioned CLI Gradle tasks directly in the "Gradle" Tool Window, 
-which expands from the right side of the screen.  To debug, find "runIde" in the list, right-click it, and choose Run/Debug.
-
---------------------
-
-## Contribution
-
-Pull requests are appreciated! I can use some help on bugs and features listed in 
-<https://github.com/ChrisRM/material-theme-jetbrains/issues>, or you can send me some new ideas!
-
---------------------
-
 ## Known Issues
 
 ### Scrambled fonts
@@ -316,7 +272,7 @@ Official page: [@MJetbrains](https://twitter.com/MJetbrains)
 
 Github: [@ChrisRM](https://github.com/chrisrm) [@Mallowigi](https://github.com/mallowigi)
 
-Blog: <http://www.material-theme.com/docs/blog/>
+Blog: <https://www.material-theme.com/docs/blog/>
 
 **Thanks to [@equinusocio](https://github.com/equinusocio) and his original [Material Theme](https://github.com/equinusocio/vsc-material-theme) for the inspiration.**
 
@@ -387,61 +343,6 @@ Check out my other projects:
 - [Material Theme UI for Chrome](https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo) - Porting of the Material Theme for Chrome
 - [Slack Themes](https://github.com/mallowigi/slack-themes) - Porting of the Material Theme to Slack
 
-
-## Color Palette
-
-| Color     | Default / Darker | Lighter   |
-|:----------|:-----------------|:----------|
-| Red       | `#FF5370`        | `#E53935` |
-| Pink      | `#F07178`        | `#FF5370` |
-| Orange    | `#F78C6C`        | `#F76D47` |
-| Yellow    | `#FFCB6B`        | `#FFB62C` |
-| Green     | `#C3E88D`        | `#91B859` |
-| Pale Blue | `#B2CCD6`        | `#8796B0` |
-| Cyan      | `#89DDFF`        | `#39ADB5` |
-| Blue      | `#82AAFF`        | `#6182B8` |
-| Purple    | `#C792EA`        | `#7C4DFF` |
-| Violet    | `#BB80B3`        | `#945EB8` |
-| Brown     | `#AB7967`        | `#AB7967` |
-
-
-**Color Theme Reference**
-
-| Color                | Default  | Darker   | Lighter  | Palenight|
-| -------------------- | --------- | --------- | --------- | --------- |
-| Background           | `#263238` | `#212121` | `#FAFAFA` | `#292D3E` |
-| Foreground           | `#B0BEC5` | `#B0BEC5` | `#A7ADB0` | `#B0BEC5` |
-| Selection            | `#546E7A` | `#424242` | `#546E7A` | `#676E95` |
-| Primary Color        | `#607D8B` | `#616161` | `#A7ADB0` | `#A6ACCD` |
-| Alternative Color    | `#546E7A` | `#616161` | `#B0BEC5` | `#676E95` |
-| Inactive             | `#415967` | `#474747` | `#D2D4D5` | `#4E5579` |
-
-**Accent Colors**
-
-| Accent       | Color     |
-|:-------------|:----------|
-| Turquoise    | `#80CBC4` |
-| Acid Lime    | `#C6FF00` |
-| Amethyst     | `#AB47BC` |
-| Aquamarine   | `#64FFDA` |
-| Breaking Bad | `#388E3C` |
-| Brick        | `#E57373` |
-| Coffee       | `#795548` |
-| Cyan         | `#00BCD4` |
-| Daisy        | `#FFEB3B` |
-| Dodger Blue  | `#2979FF` |
-| Fuschia      | `#E91E63` |
-| Gold         | `#FFD700` |
-| Graphite     | `#616161` |
-| Indigo       | `#3F51B5` |
-| Lime         | `#7CB342` |
-| Orange       | `#FF7042` |
-| Pomegrenate  | `#F44336` |
-| Sky          | `#84FFFF` |
-| Slate        | `#607D8B` |
-| Strawberry   | `#FF4081` |
-| Teal         | `#009688` |
-| Tomato       | `#F44336` |
 
 ## Contributors
 
